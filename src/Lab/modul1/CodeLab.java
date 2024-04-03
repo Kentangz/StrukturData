@@ -1,3 +1,5 @@
+package Lab.modul1;
+
 class Box<T>{
     private  T value;
 
@@ -10,11 +12,11 @@ class Box<T>{
     }
 
     public void  display(){
-        System.out.println("Box contains: " +value);
+        System.out.println("Lab.modul1.Box contains: " +value);
     }
 }
 
-public class Main {
+public class CodeLab {
     public static void main(String[]args){
         Box<Integer> IntegerBox = new Box<>();
 

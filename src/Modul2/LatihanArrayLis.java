@@ -1,7 +1,7 @@
 package Modul2;
 
 import java.util.ArrayList;
-public class LatihanLink {
+public class LatihanArrayLis {
 
     public static void main(String[] args) {
         ArrayList<String> daftarNama = new ArrayList<>();
